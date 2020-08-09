@@ -51,6 +51,7 @@ class API
              stox.name.colorize(:green)
             else
                 puts "This ticker does not exist"
+                
             end            
         end
 
