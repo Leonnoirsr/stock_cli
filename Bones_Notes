@@ -1,0 +1,32 @@
+CLI Project
+API - Yahoo Finance
+Overview: 
+         - 1. On startup user is told to give name { X }
+         - 2. Once name is input, it should return "Hello #{name},
+welcome to your personal daily stock advisor. Here are some things
+I can do for you."
+         - 3. Terminal then gives following options:
+         
+         
+         * 1. Today's best performing stock on NASDAQ{x}
+                - Returns best performing stock
+         * 2. Today's worst perfoming stock on NASDAQ {X}
+                - Returns worst performing stock on NASDAQ
+         * 3. Personalized stock information 
+                - This then goes down another level once selected
+                - This allows user to enter Ticker Symbol
+                - Which then returns the information for that Ticker
+                - User generated tickers then get saved in stock Class
+         * 4. Show's user's stock portfolio
+                - Returns all instances from stock class
+         * 5. Exit
+                - Exits terminal. Returns "Goodbye #{name}."
+
+
+
+3 Classes:
+
+CLI Class - controller - communicates with user. outputs 
+Stock Class - Responsible for list / Objects that are
+ created and stored
+API Class - bring in external data. Put Api and instantiate Objects
