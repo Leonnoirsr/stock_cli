@@ -66,7 +66,6 @@ class StockCli::CLI
         when "5"
             puts "I'm glad I could help! Enjoy the day".colorize(:red)
         end 
-
         end 
      end
     end
