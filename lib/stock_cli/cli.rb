@@ -69,5 +69,4 @@ class StockCli::CLI
 
         end 
      end
-    
-end
+    end
