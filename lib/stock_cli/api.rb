@@ -50,8 +50,7 @@ class API
              stox =  Stock.new(stock_name, stock_price)
              stox.name.colorize(:green)
             else
-                puts "This ticker does not exist"
-                
+                puts "This ticker does not exist"              
             end            
         end
 
