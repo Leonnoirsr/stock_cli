@@ -9,7 +9,8 @@ class API
             http.verify_mode = OpenSSL::SSL::VERIFY_NONE   
             request = Net::HTTP::Get.new(url)
             request["x-rapidapi-host"] = 'apidojo-yahoo-finance-v1.p.rapidapi.com'
-            request["x-rapidapi-key"] = '7f51638886mshb6044789af2675bp1460bbjsnd9fea588a224'
+            request["x-rapidapi-key"] = ENV['ROYALE']
+            # binding.pry
             response = http.request(request)
         end
         
@@ -34,7 +35,7 @@ class API
             http.verify_mode = OpenSSL::SSL::VERIFY_NONE
             request = Net::HTTP::Get.new(url)
             request["x-rapidapi-host"] = 'apidojo-yahoo-finance-v1.p.rapidapi.com'
-            request["x-rapidapi-key"] = '7f51638886mshb6044789af2675bp1460bbjsnd9fea588a224'
+            request["x-rapidapi-key"] = ENV['ROYALE']
             response = http.request(request)
         end
 
